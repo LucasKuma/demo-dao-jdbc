@@ -26,6 +26,12 @@ public class Program2 {
 		Department dep = new Department(null, "Design");
 		departmentDao.insert(dep);
 		System.out.println("Created a new department successfully!");
+		
+		System.out.println("\n==== Test 4: Department update ====");
+		department = departmentDao.findById(9);
+		department.setName("Enginners");
+		departmentDao.update(department);
+		System.out.println("Update Completed!");
 	}
 
 }
