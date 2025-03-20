@@ -35,7 +35,7 @@ public class Program2 {
 		
 		System.out.println("\n==== Test 5: Department deleteById ====");
 		departmentDao.deleteById(9);
-		System.out.println("Departmente deleted successfully!");
+		System.out.println("Department deleted successfully!");
 	}
 
 }
